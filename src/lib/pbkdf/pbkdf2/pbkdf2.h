@@ -18,13 +18,13 @@ BOTAN_FUTURE_INTERNAL_HEADER(pbkdf2.h)
 
 namespace Botan {
 
-BOTAN_PUBLIC_API(2,0) size_t pbkdf2(MessageAuthenticationCode& prf,
-                        uint8_t out[],
-                        size_t out_len,
-                        const std::string& passphrase,
-                        const uint8_t salt[], size_t salt_len,
-                        size_t iterations,
-                        std::chrono::milliseconds msec);
+//BOTAN_PUBLIC_API(2,0) size_t pbkdf2(MessageAuthenticationCode& prf,
+//                        uint8_t out[],
+//                        size_t out_len,
+//                        const std::string& passphrase,
+//                        const uint8_t salt[], size_t salt_len,
+//                        size_t iterations,
+//                        std::chrono::milliseconds msec);
 
 /**
 * Perform PBKDF2. The prf is assumed to be keyed already.
